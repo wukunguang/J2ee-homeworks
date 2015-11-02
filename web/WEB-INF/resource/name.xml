@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE accessable[
+        <!ELEMENT accessable ( baned,access )>
+        <!ELEMENT baned ( banusername )>
+        <!ELEMENT banusername (#PCDATA)>
+        <!ELEMENT access ( user)>
+        <!ELEMENT user (name, username ,password)>
+        <!ELEMENT username (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT password (#PCDATA)>
+        ]>
+
+<accessable>
+    <baned>
+
+        <banusername>本拉登</banusername>
+        <banusername>tuhao</banusername>
+        <banusername>法轮功</banusername>
+    </baned>
+
+    <access>
+        <user>
+            <name>吴坤光</name>
+            <username>wukunguang</username>
+            <password>123456</password>
+        </user>
+        <user>
+            <name>土豪</name>
+            <username>tuhao</username>
+            <password>123456</password>
+        </user>
+    </access>
+</accessable>

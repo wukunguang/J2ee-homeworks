@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE accessable[
+        <!ELEMENT accessable ( baned,access )>
+        <!ELEMENT baned ( ban-username )>
+        <!ELEMENT access ( user)>
+        <!ELEMENT user (name, name ,password)>
+        <!ELEMENT username (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT ban-username (#PCDATA)>
+        <!ELEMENT password (#PCDATA)>
+        ]>
